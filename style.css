@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  text-align: center;
+  font-family: 'Estonia', sans-serif;
+  padding-bottom: 20px;
+}
+
+.name span {
+  font-size: 4em;
+  line-height: .75em;
+}
+
+.teaser {
+  font-family: 'Estonia', sans-serif;
+  font-size: 2.5em;
+}
